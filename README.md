@@ -7,20 +7,32 @@ This project implements a Face Recognition System using Principal Component Anal
 
 
 Image Preprocessing:
+
+
   Load all face images from the dataset
   Convert to grayscale and resize for uniformity
 Feature Extraction using PCA:
+
+
   Reduce high-dimensional image data into principal components
   Generate Eigenfaces representing the most significant facial features
 Dimensionality Reduction using LDA (optional):
+
+
   Enhance class separability before classification
 Face Classification using ANN (MLP):
+
+
   Train a neural network to classify faces based on extracted features
   Evaluate model accuracy on test data
 Visualization:
+
+
   Display Eigenfaces and predicted face results with confidence scores
 
  Technologies Used
+
+ 
    Python
    OpenCV
    NumPy & Matplotlib
