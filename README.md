@@ -1,11 +1,11 @@
 # Implementation-of-PCA-with-ANN-algorithm-for-Face-recognition
 
 Implementation of PCA with ANN Algorithm for Face Recognition
- Overview
+
 
 This project implements a Face Recognition System using Principal Component Analysis (PCA) for feature extraction (Eigenfaces) and a Multi-Layer Perceptron (ANN) for classification. The goal is to recognize human faces from images efficiently by reducing dimensionality and training a neural network on the key facial features.
 
-Key Steps
+
 Image Preprocessing:
   Load all face images from the dataset
   Convert to grayscale and resize for uniformity
